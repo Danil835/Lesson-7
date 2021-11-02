@@ -1,0 +1,92 @@
+body{
+    background: rgb(53, 53, 53);
+}
+.hea{
+    color: white;
+    background: 20px black;
+    display: flex;
+    flex-direction: row;
+    border: 20px solid black;
+    justify-content: center;
+}
+.image{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    right: -150px;
+}
+.main{
+    display: flex;
+    justify-content: flex-start;
+}
+.main-left {
+    background-color: rgb(255, 187, 0);
+    height: 1000px;
+    width: 500%;
+    float: left;
+}
+.child{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 50px solid rgb(53, 53, 53);
+}
+p:hover {
+    font-size: 40px;
+    
+}
+.second-right {
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.parent{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: -300px;
+    right: 300px;
+}
+.footer-inner{
+    color: white;
+    background: 20px black;
+    display: flex;
+    flex-direction: row;
+    border: 20px solid black;
+    justify-content: center;
+    
+}
+
+
+
+
+
+display: flex;
+    justify-content: center;
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 20px;
+    border: 50px solid rgb(53, 53, 53);
+
+
+
+
+
+
+
+
+
+
+
+
+
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    float: inline-end;
